@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=IM+Fell+English:ital@0;1&family=Roboto+Mono:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;/*distancia do conteudo para o exterior*/
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    font: 100%;   
+    background: rgb(241, 231, 206);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: 0.4px solid whitesmoke;
+}
+
+.logo{
+    font-family: 'Merriweather', serif;
+    color: rgb(37, 24, 3);
+    font-weight: 400;
+    font-size: 42px;
+}
+.menus{
+    display: flex;
+    gap: 32px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.menu:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.1)
+}
+.menu{
+    font-family: 'Merriweather', serif;
+    color: #251803;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trio{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    min-width: 100px;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+.letras{
+    display: flex;
+
+}
+.letra{
+    font-family: 'Merriweather', serif;
+    color: rgb(241, 231, 206);
+    background-color: rgb(37, 24, 3);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1%;
+    border: 2px solid #282828;
+    margin-top: 3%;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.letra:hover{
+    background-color: rgb(70, 48, 13);
+    color: rgb(212, 190, 155);
+    transform: scale(1.1)
+}
+.palavras{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    
+}
+
+.palavra{
+    font-family: 'Merriweather', serif;
+    color: rgb(37, 24, 3);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.palavra:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+.significado{
+   font-family: 'Merriweather', serif;
+    color: rgb(37, 24, 3);
+}
